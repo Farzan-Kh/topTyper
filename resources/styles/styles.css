@@ -1,0 +1,81 @@
+Screen {
+    layout: horizontal;
+}
+
+#left-pane {
+    width: 75%;
+    height: 100%;
+    padding: 1;
+}
+
+#right-pane {
+    width: 25%;
+    height: 100%;
+    border-left: solid rgb(67, 67, 67);
+    padding: 1;
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 1;
+}
+
+#text-to-type {
+    margin-bottom: 1;
+    border: solid white;
+    padding: 1;
+    text-align: center;
+}
+
+#countdown-label {
+    margin-top: 3;
+    text-align: center;
+}
+
+#leaderboard-header {
+    text-align: center;
+    margin-bottom: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+#leaderboard {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.centered-table .datatable {
+    align: center middle;
+}
+
+.centered-table .datatable-cell {
+    text-align: center;
+    width: 200;
+}
+
+.centered-table .datatable-header {
+    text-align: center;
+}
+
+.margin-bottom {
+    margin-bottom: 1;
+}
+
+/* Remove the blue border when the Input widget is focused */
+Input:focus {
+    border: none;
+    border-top: solid rgb(22, 22, 22);
+    border-bottom: solid rgb(22, 22, 22);
+    background: rgb(18, 18, 18);
+}
+
+/* Center the text vertically in the Input widget */
+#username-input, #typing-input {
+    margin-bottom: 1;
+    min-height: 3; /* Adjust this value to match the height of the Input widget */
+    align: center middle; /* Optional: Center the text horizontally as well */
+    text-align: center;
+}
